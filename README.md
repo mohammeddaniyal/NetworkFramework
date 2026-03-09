@@ -29,8 +29,8 @@ Get the latest release of **NFramework Server & Client JARs** from the [Releases
 
 #### **📥 Required Imports**
 ```java
-import com.thinking.machines.nframework.server.*;
-import com.thinking.machines.nframework.server.annotations.*;
+import io.github.mohammeddaniyal.nframework.server.*;
+import io.github.mohammeddaniyal.nframework.server.annotations.*;
 ```
 
 #### **🛠 Implementation**
@@ -46,7 +46,7 @@ public class BankService {
 
 #### **🔧 Starting the Server**
 ```java
-import com.thinking.machines.nframework.server.*;
+import io.github.mohammeddaniyal.nframework.server.*;
 
 public class BankServer {
     public static void main(String[] args) {
@@ -61,7 +61,7 @@ public class BankServer {
 
 #### **📥 Required Imports**
 ```java
-import com.thinking.machines.nframework.client.*;
+import io.github.mohammeddaniyal.nframework.client.*;
 ```
 
 #### **🛠 Implementation**
